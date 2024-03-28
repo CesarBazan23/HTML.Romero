@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+   .gallery {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+       gap: 10px;
+   }
+   .gallery img {
+        display: block;
+       max-width: 100%;
+       height: auto;
+   }
+   </style>
+</head>
+<body>
+    <header>
+        <h1>Galeria de Imagens</h1>
+        <nav>
+            <ul>
+                <li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./Galeria.html">Galeria</a></li>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="gallery">
+            <img src="img/romero2.jpeg" alt="Chegada">
+            <img src="img/romero4.jpg" alt="Romero">
+            <img src="img/romero5.webp" alt="Campeao">
+        </div>
+
+
+    </section>
+</body>
+</html>
